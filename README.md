@@ -1,12 +1,23 @@
-# React + Vite
+# React Router with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal React application configured with React Router and Vite, serving as a boilerplate for building single-page applications (SPAs) with client-side routing.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 18**: Utilizes the latest version of React for building user interfaces.
+- **React Router v6**: Implements declarative routing for navigation between views.
+- **Vite**: Employs Vite for fast and efficient development and build processes.
+- **ESLint**: Includes ESLint configuration for maintaining code quality and consistency.
+- **Hot Module Replacement (HMR)**: Enables real-time updates during development without full page reloads.
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+- `public/index.html`: The main HTML file.
+- `src/components/`: Reusable React components.
+- `src/pages/`: Page components corresponding to different routes.
+- `src/App.jsx`: Defines the main application component and routing logic.
+- `src/main.jsx`: Entry point of the React application.
+- `.gitignore`: Specifies files and directories to be ignored by Git.
+- `package.json`: Lists dependencies and scripts.
+- `vite.config.js`: Configuration file for Vite.
